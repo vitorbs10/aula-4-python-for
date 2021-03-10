@@ -1,0 +1,10 @@
+cont = 0
+lista_numeros =[]
+while cont != 20: 
+    numero = int(input('Digite um numero: '))
+    lista_numeros.append(numero)
+    cont = cont + 1
+
+menor = min(lista_numeros) 
+print (lista_numeros)
+print('o menor número é', menor ,'e ele aparece ', lista_numeros.index(menor), 'vezes')
